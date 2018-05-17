@@ -1,0 +1,33 @@
+Strategie d'apprentissage :
+- Apprentissage validation ou apprentissage test (train test) (Stratification 80/20 70/30) --> Prédiction
+- Validation croisée (Cross validation) --> Recherche d'hyperparametre (parametre spécifié par l'humain) mais on doit le rechercher
+- Leave one out (cas particuler de la validation croisée)
+Sklearn model >>
+
+pourquoi stratégie d'apprentissage ?
+pour éviter Surapprentissage
+
+ACP ---> Diagonalisation de matrice
+
+Pickle  ou Joblib-- Sauvegarder et charger le modele
+
+Analyse bivariée --> Done
+Kmeans --> Done
+Courbe ROC, AUC --> Done
+Contribution des individus
+Faire programme modelisation
+Rechercher programme graphique --> Done
+
+Samedi 12/05 10h30
+
+Apprentissage non supervisé : Si nous supprimons l'information 'target' nous tombons dans le cas d'algorithmes de clustering : nous pouvons toujours demander à ce que notre algorithme sépare nos données en X groupes sans connaissance de leurs véritables étiquettes. Ex : Projet 5 Etude de marché (PCA pour reduire la visualisation et faire apparaitre des groupes puis CAH ou Kmeans pour vérifier ces groupes.
+
+Apprentissage supervisé : On a une cible et on apprend à faire des groupes à notre algorithme en lui donnant un jeu de données d'entrainement contenant des étiquettes afin qu'il puisse classé correctement un prochain jeu de données sans étiquette.
+
+
+En bref,quelque soit votre algorithme c'est très simple:
+
+    On instancie la classe et ses hyper-paramètres
+    On fournit les données d'apprentissage à la méthode fit (si supervisé)
+    On demande la détermination des données avec la méthode predict
+
