@@ -8,6 +8,8 @@ Pour identifier les billets propices à être considérés comme des faux, il vo
 
 ## Getting Started (=Avant de commencer)
 
+- Installer requirements 
+
 ### Prerequisites (=Pré-requis)
 
 Installer :
